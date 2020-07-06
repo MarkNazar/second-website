@@ -1,0 +1,185 @@
+#title {
+  background-color: #ff4c68;
+  color: white;
+  text-align: left;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Heading titles */
+.big-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+.section-heading {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.iphone6 {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+  top: 10%;
+}
+
+/* Navigation Bar */
+.nav-item {
+  padding: 0 0.9rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+/* Button */
+.download-icon {
+  margin: 5% 5% 0 0;
+}
+
+/*  Features */
+#features {
+  padding: 3% 15%;
+  background-color: #fff;
+  position: relative;
+}
+
+.features-desc {
+  padding: 0 5%;
+}
+
+.features-icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: #ef8172;
+}
+
+.features-icon:hover {
+  color: #ff4c68;
+}
+
+.features-title {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+/* Testimonials */
+#testimonials {
+  background-color: #ef8172;
+  position: relative;
+}
+
+.testimonials-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.testimonials-text {
+  color: #fff;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+/* Press */
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-img {
+  width: 13%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* Pricing */
+#pricing {
+  padding: 100px;
+}
+
+.pricing-card {
+  padding: 3% 2%;
+}
+
+.pricing-title {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.price-text {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+/* Click to action */
+#cta {
+  background: linear-gradient(#ff4c68, #ef8172);
+  padding: 5% 30%;
+}
+
+.cta-text {
+  font-weight: 900;
+  line-height: 3rem;
+  font-size: 2.5rem;
+  color: #fff;
+  padding-bottom: 2%;
+}
+
+/* Footer */
+#footer {
+  background-color: #fff;
+  padding: 2% 10%;
+}
+
+.footer-icon {
+  margin: 15px 10px;
+}
+
+/* Media Query */
+@media (max-width:1284px) {
+  .iphone6 {
+    position: static;
+    transform: rotate(0);
+    margin-top: 20px;
+  }
+
+  #title {
+    text-align: center;
+  }
+}
